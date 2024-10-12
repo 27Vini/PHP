@@ -1,0 +1,15 @@
+1)Crie um banco de dados de contas
+
+2) Crie uma classe Conta e uma classe RepositorioConta, para realizar as operações de persistência
+
+3) Faça com que as rotas anteriormente criadas funcionem com os dados mantidos no BD
+
+4) Crie na API RestFul um endereço que permita cadastra uma conta
+
+5) Crie uma que permita alterar uma conta
+
+USE curl -X metodo url
+Para enviar dados use curl -X POST -d {\"descricao\" : \"Pagar internet\" , etc}
+
+Para enviar cabeçalhos use -H seguido do cabecalho entre aspas
+                                   -H "Content-Type: application/json"
